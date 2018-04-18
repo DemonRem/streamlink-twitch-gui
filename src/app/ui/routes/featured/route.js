@@ -2,6 +2,7 @@ import { get, set } from "@ember/object";
 import Route from "@ember/routing/route";
 import RefreshRouteMixin from "ui/routes/-mixins/routes/refresh";
 import preload from "utils/preload";
+import "./styles.less";
 
 
 export default Route.extend( RefreshRouteMixin, {

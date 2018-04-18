@@ -2,6 +2,7 @@ import { get, set } from "@ember/object";
 import Route from "@ember/routing/route";
 import { isNone } from "@ember/utils";
 import { AdapterError } from "ember-data/adapters/errors";
+import "./styles.less";
 
 
 const errorProps = [

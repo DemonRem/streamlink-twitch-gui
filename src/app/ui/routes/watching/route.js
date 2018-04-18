@@ -4,6 +4,7 @@ import { inject as service } from "@ember/service";
 import RefreshRouteMixin from "ui/routes/-mixins/routes/refresh";
 import { mapBy } from "utils/ember/recordArrayMethods";
 import preload from "utils/preload";
+import "./styles.less";
 
 
 export default Route.extend( RefreshRouteMixin, {

@@ -1,4 +1,5 @@
 import Route from "@ember/routing/route";
+import "./styles.less";
 
 
 export default Route.extend({

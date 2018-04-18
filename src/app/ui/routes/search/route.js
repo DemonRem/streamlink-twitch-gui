@@ -4,6 +4,7 @@ import InfiniteScrollMixin from "ui/routes/-mixins/routes/infinite-scroll";
 import RefreshRouteMixin from "ui/routes/-mixins/routes/refresh";
 import { toArray, mapBy } from "utils/ember/recordArrayMethods";
 import preload from "utils/preload";
+import "./styles.less";
 
 
 function filterMatches( filter, value ) {
