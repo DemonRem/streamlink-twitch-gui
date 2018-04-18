@@ -1,6 +1,8 @@
 import { get, set } from "@ember/object";
 import Route from "@ember/routing/route";
 import { inject as service } from "@ember/service";
+import "bootstrap/dist/css/bootstrap.css";
+import "./styles/index.less";
 
 
 export default Route.extend({
